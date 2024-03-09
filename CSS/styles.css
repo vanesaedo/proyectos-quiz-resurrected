@@ -1,0 +1,51 @@
+* {
+    font-family: "Roboto", sans-serif;
+   
+}
+
+main{
+   
+    height: 100vh;
+}
+.centHeader {
+    display: flex;
+    justify-content: center;
+   
+}
+
+h1 {
+
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.centSection {
+    display: flex;
+    justify-content: center;
+   
+}
+
+/*------- BOTONES ---------------------------------------------------------*/
+
+
+.button {
+    border: none;
+    border-radius: 8px;
+    color: #ee1360;
+    background-color: white;
+    border: 2px solid #ee1360;
+    padding: 16px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 32px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #e80055;
+    color: white;
+}
